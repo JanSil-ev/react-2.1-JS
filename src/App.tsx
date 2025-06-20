@@ -1,13 +1,13 @@
-import "./App.css";
-import { carsList } from "./cars.const";
-import CarTable from "./components/CarTable";
+import './App.css'
+import { carsList } from './cars.const'
+import CarTable from './components/CarTable'
 
 function App() {
-  return (
-    <div>
-      <CarTable carsList={carsList} />
-    </div>
-  );
+    return (
+        <div>
+            <CarTable carsList={carsList} />
+        </div>
+    )
 }
 
-export default App;
+export default App
