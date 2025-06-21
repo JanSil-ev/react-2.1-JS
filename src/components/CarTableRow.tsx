@@ -1,6 +1,6 @@
-import type { Car } from "../cars.const";
+import type { Car } from '../cars.const'
 
-export const CarTableRow = ({ car } : { car: Car }) => (
+export const CarTableRow = ({ car }: { car: Car }) => (
     <tr key={car.brand + car.model}>
         <td>
             {car.brand} {car.model}
